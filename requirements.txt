@@ -1,0 +1,36 @@
+# Book Writer Pro - Requirements
+# Version: January 2026
+# Python 3.10+
+
+# === CORE DEPENDENCIES ===
+pillow>=10.0.0
+
+# === TRANSLATION (100% OFFLINE) ===
+argostranslate>=1.9.0
+
+# === EXPORT FORMATS ===
+reportlab>=4.0.0
+ebooklib>=0.18
+python-docx>=1.0.0
+markdown>=3.5.0
+
+# === AI FEATURES (OPTIONAL) ===
+
+# Cover Generator (Stable Diffusion)
+torch>=2.0.0
+diffusers<0.30
+transformers==4.38.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+numpy>=1.22,<1.24
+
+# Audiobook Generator (TTS - 100% LOCAL)
+pyttsx3>=2.90
+pydub>=0.25.0
+
+# === UTILITIES ===
+requests>=2.31.0
+tqdm>=4.66.0
+
+# === DEVELOPMENT (OPTIONAL) ===
+# pyinstaller>=6.0.0  # Pour compiler en EXE
