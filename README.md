@@ -102,7 +102,7 @@
 
 #### Option 1: Download EXE (Easiest)
 
-1. Go to [Releases](https://github.com/YOUR_USERNAME/book-writer-pro/releases)
+1. Go to [Releases](https://github.com/NeuroGeekAI/BookWriterPro/releases/tag/v1.0)
 2. Download `BookWriterPro_v1.0.zip` (latest version)
 3. Extract the ZIP file
 4. Open the `BookWriterPro_v1.0` folder
